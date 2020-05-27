@@ -1,0 +1,46 @@
+# rubocop:disable Style/CaseEquality
+
+AllCops:
+  Exclude:
+    - "bin/*"
+    - "db/**/*"
+    - "config/**/*"
+    - "Guardfile"
+    - "Rakefile"
+  DisplayCopNames: true
+
+Layout/HashAlignment:
+  Max: 120
+Metrics/MethodLength:
+  Include: ["app/controllers/*"]
+  Max: 20
+Metrics/AbcSize:
+  Include: ["app/controllers/*"]
+  Max: 30
+Metrics/ClassLength:
+  Max: 150
+Metrics/BlockLength:
+  ExcludedMethods: ['describe']
+
+Style/Documentation:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Lint/RaiseException:
+  Enable: false
+Lint/StructNewOverride:
+  Enable: false
+Style/HashEachMethods:
+  Enable: false
+Style/HashTransformKeys:
+  Enable: false
+Style/HashTransformValues:
+  Enable: false
+
+Layout/AlignHash:
+  EnforcedColonStyle: key
+Layout/ExtraSpacing:
+  AllowForAlignment: false
+Layout/MultilineMethodCallIndentation:
+  Enabled: true
+  EnforcedStyle: indented
