@@ -41,7 +41,7 @@ class Bot
       end
     end
 
-    user = user.sort_by { |key, value| value }
+    user = user.sort_by { |_key, value| value }
     user.each { |key, value| p "#{key} = #{value}" }
   end
 end
