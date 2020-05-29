@@ -31,6 +31,8 @@ class Bot
   end
 
   def search_amlovers
+    user = {}
+    
     @client.search('AMLO').take(10_000).each do |tweet|
       if user.key? tweet.user.screen_name
         user[tweet.user.screen_name] += 1
@@ -38,5 +40,7 @@ class Bot
         user[tweet.user.screen_name] = 1
       end
     end
+
+    user.each { |key, value| p "#{key} = #{value}" }
   end
 end
