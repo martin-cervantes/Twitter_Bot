@@ -3,7 +3,7 @@
 require_relative '../lib/bot.rb'
 
 describe Bot do
-  let (:bot) { Bot.new }
+  let(:bot) { Bot.new }
 
   describe '#search_amlovers' do
     it 'Check if not Integer' do
