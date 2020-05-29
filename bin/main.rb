@@ -5,3 +5,7 @@
 require_relative '../lib/bot.rb'
 
 bot = Bot.new
+
+user = bot.search_amlovers
+
+user.each { |key, value| p "#{key} = #{value}" }
