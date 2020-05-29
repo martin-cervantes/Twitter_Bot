@@ -37,7 +37,7 @@ Style/HashTransformKeys:
 Style/HashTransformValues:
   Enable: false
 
-Layout/AlignHash:
+Layout/HashAlignment:
   EnforcedColonStyle: key
 Layout/ExtraSpacing:
   AllowForAlignment: false
