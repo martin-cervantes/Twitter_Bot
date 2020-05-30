@@ -33,7 +33,7 @@ main
 ```sh
 ln -s $PWD/main /usr/local/bin/
 ```
-Now, we're done and we can simply type main to invoke our ********!
+Now, we're done and we can simply type main to invoke our Twitter Bot!
 
 ## :arrow_forward: Usage
 
