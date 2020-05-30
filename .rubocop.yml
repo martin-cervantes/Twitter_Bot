@@ -27,25 +27,17 @@ Layout/ExtraSpacing:
 Layout/MultilineMethodCallIndentation:
   Enabled: true
   EnforcedStyle: indented
-Layout/SpaceAroundMethodCallOperator:
-  Enabled: false
 
-Lint/DeprecatedOpenSSLConstant:
-  Enabled: false
 Lint/RaiseException:
   Enabled: false
 Lint/StructNewOverride:
   Enabled: false
 
-Style/ExponentialNotation:
-  Enabled: false
 Style/HashEachMethods:
   Enabled: false
 Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
-  Enabled: false
-Style/SlicingWithRange:
   Enabled: false
 Style/Documentation:
   Enabled: false
