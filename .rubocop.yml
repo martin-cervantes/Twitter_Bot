@@ -27,8 +27,6 @@ Layout/ExtraSpacing:
 Layout/MultilineMethodCallIndentation:
   Enabled: true
   EnforcedStyle: indented
-Layout/EmptyLinesAroundAttributeAccessor:
-  Enabled: false
 Layout/SpaceAroundMethodCallOperator:
   Enabled: false
 Lint/DeprecatedOpenSSLConstant:
