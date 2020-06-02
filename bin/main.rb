@@ -8,4 +8,4 @@ bot = Bot.new
 
 user = bot.search_amlovers
 
-user.each { |key, value| p "#{key} = #{value}" }
+user.each { |key, value| "#{key} = #{value[0]}" }
