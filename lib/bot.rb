@@ -33,4 +33,12 @@ class Bot
 
     user = user.sort_by { |_key, value| value }
   end
+
+  def check(friends_count, followers_count)
+    if friends_count.zero? || followers_count.zero?
+      true
+    else
+      false
+    end
+  end
 end
