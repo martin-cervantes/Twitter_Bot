@@ -2,16 +2,20 @@
 
 # frozen_string_literal: true
 
-require_relative 'pass.rb'
+YOUR_CONSUMER_KEY = 'pPMZjyR2tF82EMkq6wukjEEtt'
+YOUR_CONSUMER_SECRET = 'AEhX2FKmQv6DRVtzGyTz3Iu2QWhzRbrNlWTkchtnLUyYvRcjmm'
+YOUR_ACCESS_TOKEN = '1228041719335149568-VWTSWmfjSNZ6gfz94Xfc6i18u3F956'
+YOUR_ACCESS_SECRET = 'CzIuqMZhJrqP7RnUDcJWGYrBZpL03hN4c0Kfm8Z0BumpE'
+
 require 'twitter'
 
 class Bot
   def initialize
     @client = Twitter::REST::Client.new do |config|
-      config.consumer_key = 'pPMZjyR2tF82EMkq6wukjEEtt'
-      config.consumer_secret = 'AEhX2FKmQv6DRVtzGyTz3Iu2QWhzRbrNlWTkchtnLUyYvRcjmm'
-      config.access_token = '1228041719335149568-VWTSWmfjSNZ6gfz94Xfc6i18u3F956'
-      config.access_token_secret = 'CzIuqMZhJrqP7RnUDcJWGYrBZpL03hN4c0Kfm8Z0BumpE'
+      config.consumer_key = YOUR_CONSUMER_KEY
+      config.consumer_secret = YOUR_CONSUMER_SECRET
+      config.access_token = YOUR_ACCESS_TOKEN
+      config.access_token_secret = YOUR_ACCESS_SECRET
     end
   end
 
