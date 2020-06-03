@@ -1,18 +1,12 @@
-# Project Name
+# Twitter Bot 
 
-    Project brief description
-
-![screenshot](./screenshot.png)
+Currently it is estimated that around 15% of users on twitter can be bots. The bots help automate some tasks, but nowadays they are being used to modify trends on favor certain groups. As an example, the power struggle between political parties to favor a candidate and win elections. In this project, a basic search was made for a string of characters "AMLO" (Acronyms by which they refer to the current Mexican president) and from that result get the users and the number of tweets related to the string.
 
 ## :package: Built With
 
     - Ruby
     - Rubocop
     - Rspec
-
-## :mag: Live Demo
-
-[Live Demo Link](https://mcervantes71.github.io//index.html)
 
 ## :computer: Getting Started
 
@@ -22,12 +16,12 @@
 
 1) Clone the repository to your local machine
 ```sh
-$ git clone https://github.com/mcervantes71/********.git
+$ git clone https://github.com/mcervantes71/Twitter_Bot.git
 ```
 
 2) cd into the directory
 ```sh
-$ cd ********/bin
+$ cd Twitter_Bot/bin
 ```
 
 3) Load the module. 
@@ -39,11 +33,11 @@ main
 ```sh
 ln -s $PWD/main /usr/local/bin/
 ```
-Now, we're done and we can simply type main to invoke our ********!
+Now, we're done and we can simply type main to invoke our Twitter Bot!
 
 ## :arrow_forward: Usage
 
-    In any browser, open the index.html file.
+Load the main file by opening your console
 
 ## :vertical_traffic_light: Testing
 [Pre-requisite] 
