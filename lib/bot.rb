@@ -2,7 +2,11 @@
 
 # frozen_string_literal: true
 
-require_relative 'pass.rb'
+YOUR_CONSUMER_KEY = 'pPMZjyR2tF82EMkq6wukjEEtt'
+YOUR_CONSUMER_SECRET = 'AEhX2FKmQv6DRVtzGyTz3Iu2QWhzRbrNlWTkchtnLUyYvRcjmm'
+YOUR_ACCESS_TOKEN = '1228041719335149568-VWTSWmfjSNZ6gfz94Xfc6i18u3F956'
+YOUR_ACCESS_SECRET = 'CzIuqMZhJrqP7RnUDcJWGYrBZpL03hN4c0Kfm8Z0BumpE'
+
 require 'twitter'
 
 class Bot
